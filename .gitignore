@@ -1,2 +1,4 @@
 *.jar
 *.class
+A1/SampleNodeJSProject/node_modules/*
+A2/SampleNodeJSProject/node_modules/*
