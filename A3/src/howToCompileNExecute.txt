@@ -1,0 +1,12 @@
+javac -d . Packet/*.java
+javac -d . SendReceiveThread/*.java
+javac -d . Request/*.java
+javac -d . Server/*.java
+
+This way, you respect the dependencies. All classfiles are going to be put to
+src/ level. Then, program can run without the need of packages.
+
+To execute:
+java <MainFile>
+
+You can also use the script 'compileJavaFiles' in your terminal. Written in bash.
